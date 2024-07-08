@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+
+
+
+.light-theme{
+    --main-col:rgb(255, 255, 255);
+    --text-col:rgb(0, 0, 0);
+    --img-bg:rgb(255, 255, 255);
+    --logo-bg:rgb(255, 255, 255);
+    
+}
+.dark-theme{
+    --main-col:rgb(0, 0, 0);
+    --text-col:rgb(255, 255, 255);
+    --img-bg:rgb(0, 0, 0);
+    --logo-bg:rgb(255, 255, 255);
+}
+ion-icon {
+    padding: 0px 10px 0px 10px;
+    font-size: 64px;
+}
+body{
+    background-color: var(--main-col);
+}
+:root{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#hero{
+    background-color: var(--main-col);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    gap :100px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container>h1{
+    color: var(--text-col);
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Acme", sans-serif;
+    
+}
+.container>h3{
+    color: var(--text-col);
+    font-family: monospace;
+    font-size: 45px;
+}
+.container>p{
+    color: var(--text-col);
+    font-size: 20px;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+
+
+
+
+
+.heroimg img{
+    border-radius: 50%;
+}
